@@ -1,0 +1,105 @@
+/*
+Theme Name: Travel Init 
+Author: WEN Solutions
+Author URI: https://wensolutions.com/
+Description: Travel Init is the  Full Site Editor theme that provides a comprehensive solution for your Tour/Travel and blogging website. It is suitable for any kind of blog niches: personal, corporate, fashion, food, lifestyle, travel, news, affiliate, etc.It is fast, light-weighted. travel-init uses available Gutenberg blocks and makes the experience seamless. Responsive and clean design provides great readability on any screen size and hence engages your readers to your content. CHECK OUT THE DEMO SITES HERE: https://wensolutions.com/demo | THE DOCUMENTATION: https://wensolutions.com/docs| CONTACT FOR SUPPORT: https://wensolutions.com
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: travel-init
+Tags: full-site-editing, blog, news, one-column, custom-menu, editor-style, custom-colors, custom-logo, featured-images, full-width-template, template-editing, wide-blocks
+*/
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+/* Normalize
+--------------------------------------------- */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+.wp-block-post-author__avatar,
+.wp-block-social-links,
+.wp-block-post-excerpt__excerpt {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+button:hover,
+button:focus,
+input[type=button]:hover,
+input[type=button]:focus,
+input[type=reset]:hover,
+input[type=reset]:focus,
+input[type=submit]:hover,
+input[type=submit]:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus,
+.button:hover,
+.button:focus {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	text-decoration-style: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	border: unset !important;
+}
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+.wp-block-post-title a,
+.wp-block-site-title a,
+.wp-block-post-excerpt__more-text a,
+.travel-init-sidebar-categories a,
+.wp-block-query-pagination a,
+.wp-block-post-terms a {
+	text-decoration: none;
+}
+
+.wp-block-post-title a:hover,
+.wp-block-site-title a:hover,
+.wp-block-post-excerpt__more-text a:hover,
+.travel-init-sidebar-categories a:hover,
+.wp-block-query-pagination a:hover,
+.wp-block-post-terms a:hover {
+	text-decoration: underline;
+}
+
+.wp-site-blocks>*+* {
+	margin-block-start: unset;
+}
+
+
+/* *************************************************************************************************** */
+
+
+																																															

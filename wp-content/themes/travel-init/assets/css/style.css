@@ -1,0 +1,43 @@
+/* for contact form */
+.form-container{
+	margin: 0 auto;
+}
+.travel-init-col textarea{
+	border: none;
+}
+.travel-init-col input{
+	padding: 15px 0;
+	width: 100%;
+	border: none;
+}
+.form-container .travel-init-col{
+	padding: 10px 0;
+}
+.button-submit button{
+	padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+	background-color: lightpink;
+}
+
+/* *************************************************************************************************** */
+.footer-flex-start {
+	align-items: flex-start !important;
+}
+p{
+	font-size: 16px;
+	font-weight:400 ;
+}
+.give-height img{
+	height:30vw;
+}
+
+/* For Responsive */
+.travel-init-min-width-25vw{
+	min-width: 25vw;
+}
+
+/* 	header3 */
+.header3 figure img{
+	height: unset;
+}
